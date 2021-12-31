@@ -1,4 +1,3 @@
-import transactions
 import os
 print("Welcome to Monopoly Digital Banking")
 
@@ -330,9 +329,225 @@ def playerToBank():
                 wait()
                 os.system("ctl")
 def playerToPlayer():
-    print(" ")    
-def bankToPlayer():
     print(" ")
+def bankToPlayer():
+    print("What is the players name?")
+    name = input(">")
+    if(player8[0] == name):
+        print("How much money is the player getting?")
+        money = input("$")
+        money = int(money)
+        print("Would you like to give "+name+" $"+money+"? Validate with the banker PIN. Press enter without typing the PIN to cancel the transaction.")
+        userInput = input("PIN>")
+        if(bankerPin == userInput):
+            player8[2] = player8[2] + money
+            print("TRANSACTION COMPLETE")
+            wait()
+            os.system("cts")
+        else:
+            print("The PIN was incorrect or payment was canceled. If this is an accident, retry the purchase.")
+            wait()
+            os.system("ctl")
+    if(player7[0] == name):
+        print("How much money is the player getting?")
+        money = input("$")
+        money = int(money)
+        print("Would you like to give "+name+" $"+money+"? Validate with the banker PIN. Press enter without typing the PIN to cancel the transaction.")
+        userInput = input("PIN>")
+        if(bankerPin == userInput):
+            player7[2] = player7[2] + money
+            print("TRANSACTION COMPLETE")
+            wait()
+            os.system("cts")
+        else:
+            print("The PIN was incorrect or payment was canceled. If this is an accident, retry the purchase.")
+            wait()
+            os.system("ctl")
+    if(player6[0] == name):
+        print("How much money is the player getting?")
+        money = input("$")
+        money = int(money)
+        print("Would you like to give "+name+" $"+money+"? Validate with the banker PIN. Press enter without typing the PIN to cancel the transaction.")
+        userInput = input("PIN>")
+        if(bankerPin == userInput):
+            player6[2] = player6[2] + money
+            print("TRANSACTION COMPLETE")
+            wait()
+            os.system("cts")
+        else:
+            print("The PIN was incorrect or payment was canceled. If this is an accident, retry the purchase.")
+            wait()
+            os.system("ctl")
+    if(player5[0] == name):
+        print("How much money is the player getting?")
+        money = input("$")
+        money = int(money)
+        print("Would you like to give "+name+" $"+money+"? Validate with the banker PIN. Press enter without typing the PIN to cancel the transaction.")
+        userInput = input("PIN>")
+        if(bankerPin == userInput):
+            player5[2] = player5[2] + money
+            print("TRANSACTION COMPLETE")
+            wait()
+            os.system("cts")
+        else:
+            print("The PIN was incorrect or payment was canceled. If this is an accident, retry the purchase.")
+            wait()
+            os.system("ctl")
+    if(player4[0] == name):
+        print("How much money is the player getting?")
+        money = input("$")
+        money = int(money)
+        print("Would you like to give "+name+" $"+money+"? Validate with the banker PIN. Press enter without typing the PIN to cancel the transaction.")
+        userInput = input("PIN>")
+        if(bankerPin == userInput):
+            player4[2] = player4[2] + money
+            print("TRANSACTION COMPLETE")
+            wait()
+            os.system("cts")
+        else:
+            print("The PIN was incorrect or payment was canceled. If this is an accident, retry the purchase.")
+            wait()
+            os.system("ctl")
+    if(player3[0] == name):
+        print("How much money is the player getting?")
+        money = input("$")
+        money = int(money)
+        print("Would you like to give "+name+" $"+money+"? Validate with the banker PIN. Press enter without typing the PIN to cancel the transaction.")
+        userInput = input("PIN>")
+        if(bankerPin == userInput):
+            player3[2] = player3[2] + money
+            print("TRANSACTION COMPLETE")
+            wait()
+            os.system("cts")
+        else:
+            print("The PIN was incorrect or payment was canceled. If this is an accident, retry the purchase.")
+            wait()
+            os.system("ctl")
+    if(player2[0] == name):
+        print("How much money is the player getting?")
+        money = input("$")
+        money = int(money)
+        print("Would you like to give "+name+" $"+money+"? Validate with the banker PIN. Press enter without typing the PIN to cancel the transaction.")
+        userInput = input("PIN>")
+        if(bankerPin == userInput):
+            player2[2] = player2[2] + money
+            print("TRANSACTION COMPLETE")
+            wait()
+            os.system("cts")
+        else:
+            print("The PIN was incorrect or payment was canceled. If this is an accident, retry the purchase.")
+            wait()
+            os.system("ctl")
+    if(player1[0] == name):
+        print("How much money is the player getting?")
+        money = input("$")
+        money = int(money)
+        print("Would you like to give "+name+" $"+money+"? Validate with the banker PIN. Press enter without typing the PIN to cancel the transaction.")
+        userInput = input("PIN>")
+        if(bankerPin == userInput):
+            player1[2] = player1[2] + money
+            print("TRANSACTION COMPLETE")
+            wait()
+            os.system("cts")
+        else:
+            print("The PIN was incorrect or payment was canceled. If this is an accident, retry the purchase.")
+            wait()
+            os.system("ctl")
+def checkBalance():
+    print("Please enter your name")
+    name = input(">")
+    if(player8[0] == name):
+        print("What is your PIN?")
+        userInput = input(">")
+        if(userInput == player8[1]):
+            print("Hello, "+name+"\nYour balance is "+player8[2]+".\nYour PIN is "+player8[1])
+            wait()
+            os.system("ctl")
+        else:
+            print("Incorrect PIN")
+            wait()
+            os.system("ctl")
+    if(player7[0] == name):
+        print("What is your PIN?")
+        userInput = input(">")
+        if(userInput == player7[1]):
+            print("Hello, "+name+"\nYour balance is "+player7[2]+".\nYour PIN is "+player7[1])
+            wait()
+            os.system("ctl")
+        else:
+            print("Incorrect PIN")
+            wait()
+            os.system("ctl")
+    if(player6[0] == name):
+        print("What is your PIN?")
+        userInput = input(">")
+        if(userInput == player6[1]):
+            print("Hello, "+name+"\nYour balance is "+player6[2]+".\nYour PIN is "+player6[1])
+            wait()
+            os.system("ctl")
+        else:
+            print("Incorrect PIN")
+            wait()
+            os.system("ctl")
+    if(player5[0] == name):
+        print("What is your PIN?")
+        userInput = input(">")
+        if(userInput == player5[1]):
+            print("Hello, "+name+"\nYour balance is "+player5[2]+".\nYour PIN is "+player5[1])
+            wait()
+            os.system("ctl")
+        else:
+            print("Incorrect PIN")
+            wait()
+            os.system("ctl")
+    if(player4[0] == name):
+        print("What is your PIN?")
+        userInput = input(">")
+        if(userInput == player4[1]):
+            print("Hello, "+name+"\nYour balance is "+player4[2]+".\nYour PIN is "+player4[1])
+            wait()
+            os.system("ctl")
+        else:
+            print("Incorrect PIN")
+            wait()
+            os.system("ctl")
+    if(player3[0] == name):
+        print("What is your PIN?")
+        userInput = input(">")
+        if(userInput == player3[1]):
+            print("Hello, "+name+"\nYour balance is "+player3[2]+".\nYour PIN is "+player3[1])
+            wait()
+            os.system("ctl")
+        else:
+            print("Incorrect PIN")
+            wait()
+            os.system("ctl")
+    if(player2[0] == name):
+        print("What is your PIN?")
+        userInput = input(">")
+        if(userInput == player2[1]):
+            print("Hello, "+name+"\nYour balance is "+player2[2]+".\nYour PIN is "+player2[1])
+            wait()
+            os.system("ctl")
+        else:
+            print("Incorrect PIN")
+            wait()
+            os.system("ctl")
+    if(player1[0] == name):
+        print("What is your PIN?")
+        userInput = input(">")
+        if(userInput == player1[1]):
+            print("Hello, "+name+"\nYour balance is "+player1[2]+".\nYour PIN is "+player1[1])
+            wait()
+            os.system("ctl")
+        else:
+            print("Incorrect PIN")
+            wait()
+            os.system("ctl")
+
+
+
+
 
 print("Ready for transactions")
 print("Use the letters to choose a transaction option")
