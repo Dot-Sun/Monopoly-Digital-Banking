@@ -1,4 +1,4 @@
-#Monopoly Digital Banking
+# Monopoly Digital Banking
 ---
 ### What is it?
 Monopoly Digital Banking, or MDP, is meant to be a digital way of handling cash in Monopoly.
@@ -15,4 +15,4 @@ Use the [Github Pages site](https://Dot-Sun.github.io/Monopoly-Digital-Banking) 
 ---
 ### For Commiters
 This is what I would like others to help with in the Pyhon version.
-- Unlimited players
+- GUI
