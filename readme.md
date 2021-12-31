@@ -14,5 +14,8 @@ players money during an unrelated transaction.
 Use the [Github Pages site](https://Dot-Sun.github.io/Monopoly-Digital-Banking) to find more information on using the software.
 ---
 ### For Commiters
-This is what I would like others to help with in the Pyhon version.
+For more information on commiting, go to [our github pages site](https://Dot-Sun.github.io/Monopoly-Digital-Banking)
+This is what I would like others to help with
 - GUI
+- A web interface so other players can connect from their phones and manage their money
+- Unlimited players
