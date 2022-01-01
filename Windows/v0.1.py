@@ -126,7 +126,9 @@ def playerToBank():
         price = int(price)
         balanceAfter = player8[2] - price
         if(balanceAfter >= 0):
+            price = str(price)
             print(name+" would like to make a purchase for $"+price+". "+name+"has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
+            price = int(price)
             userInput = input("PIN>")
             if(userInput == bankerPin):
                 os.system("ctl")
@@ -153,7 +155,9 @@ def playerToBank():
         price = int(price)
         balanceAfter = player7[2] - price
         if(balanceAfter >= 0):
+            price = str(price)
             print(name+" would like to make a purchase for $"+price+". "+name+"has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
+            price = int(price)
             userInput = input("PIN>")
             if(userInput == bankerPin):
                 os.system("ctl")
@@ -180,7 +184,9 @@ def playerToBank():
         price = int(price)
         balanceAfter = player6[2] - price
         if(balanceAfter >= 0):
+            price = str(price)
             print(name+" would like to make a purchase for $"+price+". "+name+"has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
+            price = int(price)
             userInput = input("PIN>")
             if(userInput == bankerPin):
                 os.system("ctl")
@@ -207,7 +213,9 @@ def playerToBank():
         price = int(price)
         balanceAfter = player5[2] - price
         if(balanceAfter >= 0):
+            price = str(price)
             print(name+" would like to make a purchase for $"+price+". "+name+"has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
+            price = int(price)
             userInput = input("PIN>")
             if(userInput == bankerPin):
                 os.system("ctl")
@@ -234,7 +242,9 @@ def playerToBank():
         price = int(price)
         balanceAfter = player4[2] - price
         if(balanceAfter >= 0):
+            price = str(price)
             print(name+" would like to make a purchase for $"+price+". "+name+"has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
+            price = int(price)
             userInput = input("PIN>")
             if(userInput == bankerPin):
                 os.system("ctl")
@@ -261,7 +271,9 @@ def playerToBank():
         price = int(price)
         balanceAfter = player3[2] - price
         if(balanceAfter >= 0):
+            price = str(price)
             print(name+" would like to make a purchase for $"+price+". "+name+"has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
+            price = int(price)
             userInput = input("PIN>")
             if(userInput == bankerPin):
                 os.system("ctl")
@@ -288,7 +300,9 @@ def playerToBank():
         price = int(price)
         balanceAfter = player2[2] - price
         if(balanceAfter >= 0):
+            price = str(price)
             print(name+" would like to make a purchase for $"+price+". "+name+"has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
+            price = int(price)
             userInput = input("PIN>")
             if(userInput == bankerPin):
                 os.system("ctl")
@@ -315,7 +329,9 @@ def playerToBank():
         price = int(price)
         balanceAfter = player1[2] - price
         if(balanceAfter >= 0):
+            price = str(price)
             print(name+" would like to make a purchase for $"+price+". "+name+"has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
+            price = int(price)
             userInput = input("PIN>")
             if(userInput == bankerPin):
                 os.system("ctl")
