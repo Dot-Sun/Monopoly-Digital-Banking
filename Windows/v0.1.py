@@ -797,8 +797,18 @@ def checkBalance():
 
 
 
-
-
 print("Ready for transactions")
-print("Use the letters to choose a transaction option")
-print("a)  Player to bank (e.g. property purchase)\nb)  Bank to player (e.g. for passing go)\nc)  Player to player (e.g. for a chance card)\n\nType cb)  Check player balance")
+def transactions():
+    print("Use the letters to choose a transaction option")
+    print("a)  Player to bank (e.g. property purchase)\nb)  Bank to player (e.g. for passing go)\nYou can check player balances and close the applacation to end game\n\nType cb)  Check player balance")
+    userInput = input(">")
+    if(userInput == "a"):
+        playerToBank()
+    if(userInput == "b"):
+        bankToPlayer()
+    if(userInput == "cb"):
+        checkBalance()
+
+forever = 0
+while(forever == 0):
+    transactions()

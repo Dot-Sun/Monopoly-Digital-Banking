@@ -11,10 +11,10 @@ players money during an unrelated transaction.
 3. Enter how many players there are
 4. Enter information for each player. Each player must enter their own PIN and keep it a secret from everyone, including the banker.
 5. Your all setup, you can start the game. All players have allready been given the starting amount of money.
-Use the [Github Pages site](https://Dot-Sun.github.io/Monopoly-Digital-Banking) to find more information on using the software.
+Use the wiki to find more information on using the software.
 ---
 ### For Commiters
-For more information on commiting, go to [our github pages site](https://Dot-Sun.github.io/Monopoly-Digital-Banking/commiting)
+For more information on commiting, go to the wiki.
 This is what I would like others to help with
 - GUI
 - A web interface so other players can connect from their phones and manage their money
