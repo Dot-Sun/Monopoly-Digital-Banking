@@ -18,6 +18,14 @@ wait()
 os.system("cls") #this line will be used to clear the console
 
 #setup players
+player8 = ["name",1234,0]
+player7 = ["name",1234,0]
+player6 = ["name",1234,0]
+player5 = ["name",1234,0]
+player4 = ["name",1234,0]
+player3 = ["name",1234,0]
+player2 = ["name",1234,0]
+player1 = ["name",1234,0]
 if(playerCount == 8):
     name = input("Name>")
     os.system("cls")
