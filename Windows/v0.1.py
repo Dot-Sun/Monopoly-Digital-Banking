@@ -127,28 +127,30 @@ def playerToBank():
         balanceAfter = player8[2] - price
         if(balanceAfter >= 0):
             price = str(price)
-            print(name+" would like to make a purchase for $"+price+". "+name+"has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
+            print(name+" would like to make a purchase for $"+price+". "+name+" has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
             price = int(price)
             userInput = input("PIN>")
             if(userInput == bankerPin):
-                os.system("ctl")
+                os.system("cls")
                 print("Please pass the device to "+name)
                 wait()
+                price = str(price)
                 print("Would you like to make a purchase of $"+price+"? Your balance afterward will be $"+balanceAfter+". Please validate the purchase with your PIN. Press enter without entering your PIN to cancel the payment.")
+                price = int(price)
                 userInput = input("PIN>")
                 if(userInput == player8[1]):
                     player8[1] = player8[1]-price
                     print("PAYMENT COMPLETE!\nPlease pass the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
                 else:
                     print("The PIN was incorrect or payment was canceled. If this is an accident, have the banker retry the purchase,\notherwise pass the device back to the banker")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             else:
                 print("The PIN was incorrect or payment was canceled. If this is an accident, have the banker retry the purchase,\notherwise pass the device back to the banker")
                 wait()
-                os.system("ctl")
+                os.system("cls")
     if(player7[0] == name):
         print("How much does the transaction cost?")
         price = input("$")
@@ -156,28 +158,30 @@ def playerToBank():
         balanceAfter = player7[2] - price
         if(balanceAfter >= 0):
             price = str(price)
-            print(name+" would like to make a purchase for $"+price+". "+name+"has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
+            print(name+" would like to make a purchase for $"+price+". "+name+" has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
             price = int(price)
             userInput = input("PIN>")
             if(userInput == bankerPin):
-                os.system("ctl")
+                os.system("cls")
                 print("Please pass the device to "+name)
                 wait()
+                price = str(price)
                 print("Would you like to make a purchase of $"+price+"? Your balance afterward will be $"+balanceAfter+". Please validate the purchase with your PIN. Press enter without entering your PIN to cancel the payment.")
+                price = int(price) 
                 userInput = input("PIN>")
                 if(userInput == player7[1]):
                     player7[1] = player7[1]-price
                     print("PAYMENT COMPLETE!\nPlease pass the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
                 else:
                     print("The PIN was incorrect or payment was canceled. If this is an accident, have the banker retry the purchase,\notherwise pass the device back to the banker")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             else:
                 print("The PIN was incorrect or payment was canceled. If this is an accident, have the banker retry the purchase,\notherwise pass the device back to the banker")
                 wait()
-                os.system("ctl")
+                os.system("cls")
     if(player6[0] == name):
         print("How much does the transaction cost?")
         price = input("$")
@@ -185,28 +189,30 @@ def playerToBank():
         balanceAfter = player6[2] - price
         if(balanceAfter >= 0):
             price = str(price)
-            print(name+" would like to make a purchase for $"+price+". "+name+"has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
+            print(name+" would like to make a purchase for $"+price+". "+name+" has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
             price = int(price)
             userInput = input("PIN>")
             if(userInput == bankerPin):
-                os.system("ctl")
+                os.system("cls")
                 print("Please pass the device to "+name)
                 wait()
+                price = str(price)
                 print("Would you like to make a purchase of $"+price+"? Your balance afterward will be $"+balanceAfter+". Please validate the purchase with your PIN. Press enter without entering your PIN to cancel the payment.")
+                price = int(price)
                 userInput = input("PIN>")
                 if(userInput == player6[1]):
                     player8[1] = player6[1]-price
                     print("PAYMENT COMPLETE!\nPlease pass the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
                 else:
                     print("The PIN was incorrect or payment was canceled. If this is an accident, have the banker retry the purchase,\notherwise pass the device back to the banker")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             else:
                 print("The PIN was incorrect or payment was canceled. If this is an accident, have the banker retry the purchase,\notherwise pass the device back to the banker")
                 wait()
-                os.system("ctl")
+                os.system("cls")
     if(player5[0] == name):
         print("How much does the transaction cost?")
         price = input("$")
@@ -214,28 +220,30 @@ def playerToBank():
         balanceAfter = player5[2] - price
         if(balanceAfter >= 0):
             price = str(price)
-            print(name+" would like to make a purchase for $"+price+". "+name+"has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
+            print(name+" would like to make a purchase for $"+price+". "+name+" has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
             price = int(price)
             userInput = input("PIN>")
             if(userInput == bankerPin):
-                os.system("ctl")
+                os.system("cls")
                 print("Please pass the device to "+name)
                 wait()
+                price = str(price)
                 print("Would you like to make a purchase of $"+price+"? Your balance afterward will be $"+balanceAfter+". Please validate the purchase with your PIN. Press enter without entering your PIN to cancel the payment.")
+                price = int(price)
                 userInput = input("PIN>")
                 if(userInput == player5[1]):
                     player5[1] = player5[1]-price
                     print("PAYMENT COMPLETE!\nPlease pass the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
                 else:
                     print("The PIN was incorrect or payment was canceled. If this is an accident, have the banker retry the purchase,\notherwise pass the device back to the banker")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             else:
                 print("The PIN was incorrect or payment was canceled. If this is an accident, have the banker retry the purchase,\notherwise pass the device back to the banker")
                 wait()
-                os.system("ctl")
+                os.system("cls")
     if(player4[0] == name):
         print("How much does the transaction cost?")
         price = input("$")
@@ -243,28 +251,30 @@ def playerToBank():
         balanceAfter = player4[2] - price
         if(balanceAfter >= 0):
             price = str(price)
-            print(name+" would like to make a purchase for $"+price+". "+name+"has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
+            print(name+" would like to make a purchase for $"+price+". "+name+" has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
             price = int(price)
             userInput = input("PIN>")
             if(userInput == bankerPin):
-                os.system("ctl")
+                os.system("cls")
                 print("Please pass the device to "+name)
                 wait()
+                price = str(price)
                 print("Would you like to make a purchase of $"+price+"? Your balance afterward will be $"+balanceAfter+". Please validate the purchase with your PIN. Press enter without entering your PIN to cancel the payment.")
+                price = int(price)
                 userInput = input("PIN>")
                 if(userInput == player4[1]):
                     player4[1] = player4[1]-price
                     print("PAYMENT COMPLETE!\nPlease pass the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
                 else:
                     print("The PIN was incorrect or payment was canceled. If this is an accident, have the banker retry the purchase,\notherwise pass the device back to the banker")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             else:
                 print("The PIN was incorrect or payment was canceled. If this is an accident, have the banker retry the purchase,\notherwise pass the device back to the banker")
                 wait()
-                os.system("ctl")
+                os.system("cls")
     if(player3[0] == name):
         print("How much does the transaction cost?")
         price = input("$")
@@ -272,28 +282,30 @@ def playerToBank():
         balanceAfter = player3[2] - price
         if(balanceAfter >= 0):
             price = str(price)
-            print(name+" would like to make a purchase for $"+price+". "+name+"has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
+            print(name+" would like to make a purchase for $"+price+". "+name+" has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
             price = int(price)
             userInput = input("PIN>")
             if(userInput == bankerPin):
-                os.system("ctl")
+                os.system("cls")
                 print("Please pass the device to "+name)
                 wait()
+                price = str(price)
                 print("Would you like to make a purchase of $"+price+"? Your balance afterward will be $"+balanceAfter+". Please validate the purchase with your PIN. Press enter without entering your PIN to cancel the payment.")
+                price = int(price)
                 userInput = input("PIN>")
                 if(userInput == player3[1]):
                     player3[1] = player3[1]-price
                     print("PAYMENT COMPLETE!\nPlease pass the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
                 else:
                     print("The PIN was incorrect or payment was canceled. If this is an accident, have the banker retry the purchase,\notherwise pass the device back to the banker")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             else:
                 print("The PIN was incorrect or payment was canceled. If this is an accident, have the banker retry the purchase,\notherwise pass the device back to the banker")
                 wait()
-                os.system("ctl")
+                os.system("cls")
     if(player2[0] == name):
         print("How much does the transaction cost?")
         price = input("$")
@@ -301,28 +313,30 @@ def playerToBank():
         balanceAfter = player2[2] - price
         if(balanceAfter >= 0):
             price = str(price)
-            print(name+" would like to make a purchase for $"+price+". "+name+"has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
+            print(name+" would like to make a purchase for $"+price+". "+name+" has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
             price = int(price)
             userInput = input("PIN>")
             if(userInput == bankerPin):
-                os.system("ctl")
+                os.system("cls")
                 print("Please pass the device to "+name)
                 wait()
+                price = str(price)
                 print("Would you like to make a purchase of $"+price+"? Your balance afterward will be $"+balanceAfter+". Please validate the purchase with your PIN. Press enter without entering your PIN to cancel the payment.")
+                price = int(price)
                 userInput = input("PIN>")
                 if(userInput == player2[1]):
                     player2[1] = player2[1]-price
                     print("PAYMENT COMPLETE!\nPlease pass the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
                 else:
                     print("The PIN was incorrect or payment was canceled. If this is an accident, have the banker retry the purchase,\notherwise pass the device back to the banker")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             else:
                 print("The PIN was incorrect or payment was canceled. If this is an accident, have the banker retry the purchase,\notherwise pass the device back to the banker")
                 wait()
-                os.system("ctl")
+                os.system("cls")
     if(player1[0] == name):
         print("How much does the transaction cost?")
         price = input("$")
@@ -330,28 +344,30 @@ def playerToBank():
         balanceAfter = player1[2] - price
         if(balanceAfter >= 0):
             price = str(price)
-            print(name+" would like to make a purchase for $"+price+". "+name+"has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
+            print(name+" would like to make a purchase for $"+price+". "+name+" has enough money to make this purchase. Please validate it with the bankers PIN. Press enter without entering your PIN to cancel the payment.")
             price = int(price)
             userInput = input("PIN>")
             if(userInput == bankerPin):
-                os.system("ctl")
+                os.system("cls")
                 print("Please pass the device to "+name)
                 wait()
+                price = str(price)
                 print("Would you like to make a purchase of $"+price+"? Your balance afterward will be $"+balanceAfter+". Please validate the purchase with your PIN. Press enter without entering your PIN to cancel the payment.")
+                price = int(price)
                 userInput = input("PIN>")
                 if(userInput == player1[1]):
                     player1[1] = player1[1]-price
                     print("PAYMENT COMPLETE!\nPlease pass the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
                 else:
                     print("The PIN was incorrect or payment was canceled. If this is an accident, have the banker retry the purchase,\notherwise pass the device back to the banker")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             else:
                 print("The PIN was incorrect or payment was canceled. If this is an accident, have the banker retry the purchase,\notherwise pass the device back to the banker")
                 wait()
-                os.system("ctl")
+                os.system("cls")
 def playerToPlayer():
     print("To ensure that player to player transactions are allowed in this game, please enter the banker PIN")
     userInput = input("PIN>")
@@ -362,7 +378,7 @@ def playerToPlayer():
         recieverName = input(">")
         if(senderName == player8[0]):
             if(recieverName == player7[0]):
-                os.system("ctl")
+                os.system("cls")
                 print("Please give the device to "+player8[0])
                 wait()
                 print("How much would you like to send?")
@@ -377,9 +393,9 @@ def playerToPlayer():
                     print("TRANSACTION COMPLETE")
                     print("Please give the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             if(recieverName == player6[0]):
-                os.system("ctl")
+                os.system("cls")
                 print("Please give the device to "+player8[0])
                 wait()
                 print("How much would you like to send?")
@@ -394,9 +410,9 @@ def playerToPlayer():
                     print("TRANSACTION COMPLETE")
                     print("Please give the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             if(recieverName == player5[0]):
-                os.system("ctl")
+                os.system("cls")
                 print("Please give the device to "+player8[0])
                 wait()
                 print("How much would you like to send?")
@@ -411,9 +427,9 @@ def playerToPlayer():
                     print("TRANSACTION COMPLETE")
                     print("Please give the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             if(recieverName == player4[0]):
-                os.system("ctl")
+                os.system("cls")
                 print("Please give the device to "+player8[0])
                 wait()
                 print("How much would you like to send?")
@@ -428,9 +444,9 @@ def playerToPlayer():
                     print("TRANSACTION COMPLETE")
                     print("Please give the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             if(recieverName == player3[0]):
-                os.system("ctl")
+                os.system("cls")
                 print("Please give the device to "+player8[0])
                 wait()
                 print("How much would you like to send?")
@@ -445,9 +461,9 @@ def playerToPlayer():
                     print("TRANSACTION COMPLETE")
                     print("Please give the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             if(recieverName == player2[0]):
-                os.system("ctl")
+                os.system("cls")
                 print("Please give the device to "+player8[0])
                 wait()
                 print("How much would you like to send?")
@@ -462,9 +478,9 @@ def playerToPlayer():
                     print("TRANSACTION COMPLETE")
                     print("Please give the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             if(recieverName == player1[0]):
-                os.system("ctl")
+                os.system("cls")
                 print("Please give the device to "+player8[0])
                 wait()
                 print("How much would you like to send?")
@@ -479,10 +495,10 @@ def playerToPlayer():
                     print("TRANSACTION COMPLETE")
                     print("Please give the device back to the banker.")
                     wait()
-                    os.system("ctl")      
+                    os.system("cls")      
         if(senderName == player7[0]):
             if(recieverName == player8[0]):
-                os.system("ctl")
+                os.system("cls")
                 print("Please give the device to "+player7+[0])
                 wait()
                 print("How much would you like to send?")
@@ -497,9 +513,9 @@ def playerToPlayer():
                     print("TRANSACTION COMPLETE")
                     print("Please give the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             if(recieverName == player6[0]):
-                os.system("ctl")
+                os.system("cls")
                 print("Please give the device to "+player7[0])
                 wait()
                 print("How much would you like to send?")
@@ -514,9 +530,9 @@ def playerToPlayer():
                     print("TRANSACTION COMPLETE")
                     print("Please give the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             if(recieverName == player5[0]):
-                os.system("ctl")
+                os.system("cls")
                 print("Please give the device to "+player7[0])
                 wait()
                 print("How much would you like to send?")
@@ -531,9 +547,9 @@ def playerToPlayer():
                     print("TRANSACTION COMPLETE")
                     print("Please give the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             if(recieverName == player7[0]):
-                os.system("ctl")
+                os.system("cls")
                 print("Please give the device to "+player8[0])
                 wait()
                 print("How much would you like to send?")
@@ -548,9 +564,9 @@ def playerToPlayer():
                     print("TRANSACTION COMPLETE")
                     print("Please give the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             if(recieverName == player3[0]):
-                os.system("ctl")
+                os.system("cls")
                 print("Please give the device to "+player8[0])
                 wait()
                 print("How much would you like to send?")
@@ -565,9 +581,9 @@ def playerToPlayer():
                     print("TRANSACTION COMPLETE")
                     print("Please give the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             if(recieverName == player2[0]):
-                os.system("ctl")
+                os.system("cls")
                 print("Please give the device to "+player7[0])
                 wait()
                 print("How much would you like to send?")
@@ -582,9 +598,9 @@ def playerToPlayer():
                     print("TRANSACTION COMPLETE")
                     print("Please give the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
             if(recieverName == player1[0]):
-                os.system("ctl")
+                os.system("cls")
                 print("Please give the device to "+player7[0])
                 wait()
                 print("How much would you like to send?")
@@ -599,11 +615,11 @@ def playerToPlayer():
                     print("TRANSACTION COMPLETE")
                     print("Please give the device back to the banker.")
                     wait()
-                    os.system("ctl")
+                    os.system("cls")
     else:
         print("Incorect PIN or player to player transactions aren't allowed in this game")
         wait()
-        os.system("ctl")
+        os.system("cls")
 def bankToPlayer():
     print("What is the players name?")
     name = input(">")
@@ -621,7 +637,7 @@ def bankToPlayer():
         else:
             print("The PIN was incorrect or payment was canceled. If this is an accident, retry the purchase.")
             wait()
-            os.system("ctl")
+            os.system("cls")
     if(player7[0] == name):
         print("How much money is the player getting?")
         money = input("$")
@@ -636,7 +652,7 @@ def bankToPlayer():
         else:
             print("The PIN was incorrect or payment was canceled. If this is an accident, retry the purchase.")
             wait()
-            os.system("ctl")
+            os.system("cls")
     if(player6[0] == name):
         print("How much money is the player getting?")
         money = input("$")
@@ -651,7 +667,7 @@ def bankToPlayer():
         else:
             print("The PIN was incorrect or payment was canceled. If this is an accident, retry the purchase.")
             wait()
-            os.system("ctl")
+            os.system("cls")
     if(player5[0] == name):
         print("How much money is the player getting?")
         money = input("$")
@@ -666,7 +682,7 @@ def bankToPlayer():
         else:
             print("The PIN was incorrect or payment was canceled. If this is an accident, retry the purchase.")
             wait()
-            os.system("ctl")
+            os.system("cls")
     if(player4[0] == name):
         print("How much money is the player getting?")
         money = input("$")
@@ -681,7 +697,7 @@ def bankToPlayer():
         else:
             print("The PIN was incorrect or payment was canceled. If this is an accident, retry the purchase.")
             wait()
-            os.system("ctl")
+            os.system("cls")
     if(player3[0] == name):
         print("How much money is the player getting?")
         money = input("$")
@@ -696,7 +712,7 @@ def bankToPlayer():
         else:
             print("The PIN was incorrect or payment was canceled. If this is an accident, retry the purchase.")
             wait()
-            os.system("ctl")
+            os.system("cls")
     if(player2[0] == name):
         print("How much money is the player getting?")
         money = input("$")
@@ -711,7 +727,7 @@ def bankToPlayer():
         else:
             print("The PIN was incorrect or payment was canceled. If this is an accident, retry the purchase.")
             wait()
-            os.system("ctl")
+            os.system("cls")
     if(player1[0] == name):
         print("How much money is the player getting?")
         money = input("$")
@@ -726,7 +742,7 @@ def bankToPlayer():
         else:
             print("The PIN was incorrect or payment was canceled. If this is an accident, retry the purchase.")
             wait()
-            os.system("ctl")
+            os.system("cls")
 def checkBalance():
     print("Please enter your name")
     name = input(">")
@@ -736,88 +752,88 @@ def checkBalance():
         if(userInput == player8[1]):
             print("Hello, "+name+"\nYour balance is "+player8[2]+".\nYour PIN is "+player8[1])
             wait()
-            os.system("ctl")
+            os.system("cls")
         else:
             print("Incorrect PIN")
             wait()
-            os.system("ctl")
+            os.system("cls")
     if(player7[0] == name):
         print("What is your PIN?")
         userInput = input(">")
         if(userInput == player7[1]):
             print("Hello, "+name+"\nYour balance is "+player7[2]+".\nYour PIN is "+player7[1])
             wait()
-            os.system("ctl")
+            os.system("cls")
         else:
             print("Incorrect PIN")
             wait()
-            os.system("ctl")
+            os.system("cls")
     if(player6[0] == name):
         print("What is your PIN?")
         userInput = input(">")
         if(userInput == player6[1]):
             print("Hello, "+name+"\nYour balance is "+player6[2]+".\nYour PIN is "+player6[1])
             wait()
-            os.system("ctl")
+            os.system("cls")
         else:
             print("Incorrect PIN")
             wait()
-            os.system("ctl")
+            os.system("cls")
     if(player5[0] == name):
         print("What is your PIN?")
         userInput = input(">")
         if(userInput == player5[1]):
             print("Hello, "+name+"\nYour balance is "+player5[2]+".\nYour PIN is "+player5[1])
             wait()
-            os.system("ctl")
+            os.system("cls")
         else:
             print("Incorrect PIN")
             wait()
-            os.system("ctl")
+            os.system("cls")
     if(player4[0] == name):
         print("What is your PIN?")
         userInput = input(">")
         if(userInput == player4[1]):
             print("Hello, "+name+"\nYour balance is "+player4[2]+".\nYour PIN is "+player4[1])
             wait()
-            os.system("ctl")
+            os.system("cls")
         else:
             print("Incorrect PIN")
             wait()
-            os.system("ctl")
+            os.system("cls")
     if(player3[0] == name):
         print("What is your PIN?")
         userInput = input(">")
         if(userInput == player3[1]):
             print("Hello, "+name+"\nYour balance is "+player3[2]+".\nYour PIN is "+player3[1])
             wait()
-            os.system("ctl")
+            os.system("cls")
         else:
             print("Incorrect PIN")
             wait()
-            os.system("ctl")
+            os.system("cls")
     if(player2[0] == name):
         print("What is your PIN?")
         userInput = input(">")
         if(userInput == player2[1]):
             print("Hello, "+name+"\nYour balance is "+player2[2]+".\nYour PIN is "+player2[1])
             wait()
-            os.system("ctl")
+            os.system("cls")
         else:
             print("Incorrect PIN")
             wait()
-            os.system("ctl")
+            os.system("cls")
     if(player1[0] == name):
         print("What is your PIN?")
         userInput = input(">")
         if(userInput == player1[1]):
             print("Hello, "+name+"\nYour balance is "+player1[2]+".\nYour PIN is "+player1[1])
             wait()
-            os.system("ctl")
+            os.system("cls")
         else:
             print("Incorrect PIN")
             wait()
-            os.system("ctl")
+            os.system("cls")
 
 
 
