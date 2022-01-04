@@ -19,3 +19,6 @@ This is what I would like others to help with
 - GUI
 - A web interface so other players can connect from their phones and manage their money
 - Unlimited players
+---
+### Python
+Curently developed for Python 3.9
