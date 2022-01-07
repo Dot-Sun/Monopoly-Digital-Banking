@@ -636,6 +636,726 @@ def playerToPlayer(): #This is only enabled for player8 and player7 so far.
                     print("Please give the device back to the banker.")
                     wait()
                     os.system("cls")
+        if(senderName == player6[0]):
+            if(recieverName == player8[0]):
+                os.system("cls")
+                print("Please give the device to "+player6+[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player6[2] - ammount
+                print(player6[0]+", would you like to give"+player8[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player6[1] == userInput):
+                    player6[2] = balanceAfter
+                    player8[2] = player6[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player7[0]):
+                os.system("cls")
+                print("Please give the device to "+player6[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player6[2] - ammount
+                print(player6[0]+", would you like to give"+player7[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player6[1] == userInput):
+                    player6[2] = balanceAfter
+                    player7[2] = player7[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player5[0]):
+                os.system("cls")
+                print("Please give the device to "+player6[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player6[2] - ammount
+                print(player6[0]+", would you like to give"+player5[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player6[1] == userInput):
+                    player6[2] = balanceAfter
+                    player6[2] = player5[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player6[0]):
+                os.system("cls")
+                print("Please give the device to "+player8[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player6[2] - ammount
+                print(player6[0]+", would you like to give"+player4[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player6[1] == userInput):
+                    player6[2] = balanceAfter
+                    player4[2] = player4[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player3[0]):
+                os.system("cls")
+                print("Please give the device to "+player8[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player6[2] - ammount
+                print(player6[0]+", would you like to give"+player3[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player6[1] == userInput):
+                    player6[2] = balanceAfter
+                    player3[2] = player3[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player2[0]):
+                os.system("cls")
+                print("Please give the device to "+player6[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player6[2] - ammount
+                print(player6[0]+", would you like to give"+player2[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player6[1] == userInput):
+                    player6[2] = balanceAfter
+                    player2[2] = player2[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player1[0]):
+                os.system("cls")
+                print("Please give the device to "+player6[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player6[2] - ammount
+                print(player6[0]+", would you like to give"+player1[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player6[1] == userInput):
+                    player6[2] = balanceAfter
+                    player1[2] = player1[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+        if(senderName == player5[0]):
+            if(recieverName == player8[0]):
+                os.system("cls")
+                print("Please give the device to "+player5+[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player5[2] - ammount
+                print(player5[0]+", would you like to give"+player8[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player5[1] == userInput):
+                    player5[2] = balanceAfter
+                    player8[2] = player5[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player7[0]):
+                os.system("cls")
+                print("Please give the device to "+player5[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player5[2] - ammount
+                print(player5[0]+", would you like to give"+player7[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player5[1] == userInput):
+                    player5[2] = balanceAfter
+                    player7[2] = player7[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player6[0]):
+                os.system("cls")
+                print("Please give the device to "+player5[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player5[2] - ammount
+                print(player5[0]+", would you like to give"+player6[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player5[1] == userInput):
+                    player5[2] = balanceAfter
+                    player5[2] = player6[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player5[0]):
+                os.system("cls")
+                print("Please give the device to "+player8[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player5[2] - ammount
+                print(player5[0]+", would you like to give"+player4[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player5[1] == userInput):
+                    player5[2] = balanceAfter
+                    player4[2] = player4[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player3[0]):
+                os.system("cls")
+                print("Please give the device to "+player8[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player5[2] - ammount
+                print(player5[0]+", would you like to give"+player3[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player5[1] == userInput):
+                    player5[2] = balanceAfter
+                    player3[2] = player3[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player2[0]):
+                os.system("cls")
+                print("Please give the device to "+player5[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player5[2] - ammount
+                print(player5[0]+", would you like to give"+player2[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player5[1] == userInput):
+                    player5[2] = balanceAfter
+                    player2[2] = player2[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player1[0]):
+                os.system("cls")
+                print("Please give the device to "+player5[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player5[2] - ammount
+                print(player5[0]+", would you like to give"+player1[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player5[1] == userInput):
+                    player5[2] = balanceAfter
+                    player1[2] = player1[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+        if(senderName == player4[0]):
+            if(recieverName == player8[0]):
+                os.system("cls")
+                print("Please give the device to "+player4+[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player4[2] - ammount
+                print(player4[0]+", would you like to give"+player8[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player4[1] == userInput):
+                    player4[2] = balanceAfter
+                    player8[2] = player4[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player7[0]):
+                os.system("cls")
+                print("Please give the device to "+player4[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player4[2] - ammount
+                print(player4[0]+", would you like to give"+player7[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player4[1] == userInput):
+                    player4[2] = balanceAfter
+                    player7[2] = player7[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player6[0]):
+                os.system("cls")
+                print("Please give the device to "+player4[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player4[2] - ammount
+                print(player4[0]+", would you like to give"+player6[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player4[1] == userInput):
+                    player4[2] = balanceAfter
+                    player4[2] = player6[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player4[0]):
+                os.system("cls")
+                print("Please give the device to "+player8[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player4[2] - ammount
+                print(player4[0]+", would you like to give"+player5[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player4[1] == userInput):
+                    player4[2] = balanceAfter
+                    player5[2] = player5[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player3[0]):
+                os.system("cls")
+                print("Please give the device to "+player8[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player4[2] - ammount
+                print(player4[0]+", would you like to give"+player3[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player4[1] == userInput):
+                    player4[2] = balanceAfter
+                    player3[2] = player3[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player2[0]):
+                os.system("cls")
+                print("Please give the device to "+player4[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player4[2] - ammount
+                print(player4[0]+", would you like to give"+player2[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player4[1] == userInput):
+                    player4[2] = balanceAfter
+                    player2[2] = player2[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player1[0]):
+                os.system("cls")
+                print("Please give the device to "+player4[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player4[2] - ammount
+                print(player4[0]+", would you like to give"+player1[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player4[1] == userInput):
+                    player4[2] = balanceAfter
+                    player1[2] = player1[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+        if(senderName == player3[0]):
+            if(recieverName == player8[0]):
+                os.system("cls")
+                print("Please give the device to "+player3+[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player3[2] - ammount
+                print(player3[0]+", would you like to give"+player8[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player3[1] == userInput):
+                    player3[2] = balanceAfter
+                    player8[2] = player3[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player7[0]):
+                os.system("cls")
+                print("Please give the device to "+player3[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player3[2] - ammount
+                print(player3[0]+", would you like to give"+player7[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player3[1] == userInput):
+                    player3[2] = balanceAfter
+                    player7[2] = player7[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player6[0]):
+                os.system("cls")
+                print("Please give the device to "+player3[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player3[2] - ammount
+                print(player3[0]+", would you like to give"+player6[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player3[1] == userInput):
+                    player3[2] = balanceAfter
+                    player3[2] = player6[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player3[0]):
+                os.system("cls")
+                print("Please give the device to "+player8[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player3[2] - ammount
+                print(player3[0]+", would you like to give"+player5[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player3[1] == userInput):
+                    player3[2] = balanceAfter
+                    player5[2] = player5[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player4[0]):
+                os.system("cls")
+                print("Please give the device to "+player8[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player3[2] - ammount
+                print(player3[0]+", would you like to give"+player4[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player3[1] == userInput):
+                    player3[2] = balanceAfter
+                    player4[2] = player4[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player2[0]):
+                os.system("cls")
+                print("Please give the device to "+player3[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player3[2] - ammount
+                print(player3[0]+", would you like to give"+player2[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player3[1] == userInput):
+                    player3[2] = balanceAfter
+                    player2[2] = player2[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player1[0]):
+                os.system("cls")
+                print("Please give the device to "+player3[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player3[2] - ammount
+                print(player3[0]+", would you like to give"+player1[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player3[1] == userInput):
+                    player3[2] = balanceAfter
+                    player1[2] = player1[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+        if(senderName == player2[0]):
+            if(recieverName == player8[0]):
+                os.system("cls")
+                print("Please give the device to "+player2+[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player2[2] - ammount
+                print(player2[0]+", would you like to give"+player8[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player2[1] == userInput):
+                    player2[2] = balanceAfter
+                    player8[2] = player2[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player7[0]):
+                os.system("cls")
+                print("Please give the device to "+player2[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player2[2] - ammount
+                print(player2[0]+", would you like to give"+player7[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player2[1] == userInput):
+                    player2[2] = balanceAfter
+                    player7[2] = player7[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player6[0]):
+                os.system("cls")
+                print("Please give the device to "+player2[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player2[2] - ammount
+                print(player2[0]+", would you like to give"+player6[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player2[1] == userInput):
+                    player2[2] = balanceAfter
+                    player2[2] = player6[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player2[0]):
+                os.system("cls")
+                print("Please give the device to "+player8[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player2[2] - ammount
+                print(player2[0]+", would you like to give"+player5[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player2[1] == userInput):
+                    player2[2] = balanceAfter
+                    player5[2] = player5[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player4[0]):
+                os.system("cls")
+                print("Please give the device to "+player8[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player2[2] - ammount
+                print(player2[0]+", would you like to give"+player4[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player2[1] == userInput):
+                    player2[2] = balanceAfter
+                    player4[2] = player4[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player3[0]):
+                os.system("cls")
+                print("Please give the device to "+player2[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player2[2] - ammount
+                print(player2[0]+", would you like to give"+player3[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player2[1] == userInput):
+                    player2[2] = balanceAfter
+                    player3[2] = player3[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player1[0]):
+                os.system("cls")
+                print("Please give the device to "+player2[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player2[2] - ammount
+                print(player2[0]+", would you like to give"+player1[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player2[1] == userInput):
+                    player2[2] = balanceAfter
+                    player1[2] = player1[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+        if(senderName == player1[0]):
+            if(recieverName == player8[0]):
+                os.system("cls")
+                print("Please give the device to "+player1+[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player1[2] - ammount
+                print(player1[0]+", would you like to give"+player8[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player1[1] == userInput):
+                    player1[2] = balanceAfter
+                    player8[2] = player1[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player7[0]):
+                os.system("cls")
+                print("Please give the device to "+player1[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player1[2] - ammount
+                print(player1[0]+", would you like to give"+player7[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player1[1] == userInput):
+                    player1[2] = balanceAfter
+                    player7[2] = player7[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player6[0]):
+                os.system("cls")
+                print("Please give the device to "+player1[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player1[2] - ammount
+                print(player1[0]+", would you like to give"+player6[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player1[1] == userInput):
+                    player1[2] = balanceAfter
+                    player1[2] = player6[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player1[0]):
+                os.system("cls")
+                print("Please give the device to "+player8[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player1[2] - ammount
+                print(player1[0]+", would you like to give"+player5[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player1[1] == userInput):
+                    player1[2] = balanceAfter
+                    player5[2] = player5[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player4[0]):
+                os.system("cls")
+                print("Please give the device to "+player8[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player1[2] - ammount
+                print(player1[0]+", would you like to give"+player4[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player1[1] == userInput):
+                    player1[2] = balanceAfter
+                    player4[2] = player4[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player3[0]):
+                os.system("cls")
+                print("Please give the device to "+player1[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player1[2] - ammount
+                print(player1[0]+", would you like to give"+player3[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player1[1] == userInput):
+                    player1[2] = balanceAfter
+                    player3[2] = player3[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
+            if(recieverName == player2[0]):
+                os.system("cls")
+                print("Please give the device to "+player1[0])
+                wait()
+                print("How much would you like to send?")
+                ammount = input("$")
+                ammount = int(ammount)
+                balanceAfter = player1[2] - ammount
+                print(player1[0]+", would you like to give"+player2[0]+" $"+ammount+"? Your balance after will be $"+balanceAfter+". Validate by entering your PIN. Press enter to cancel.")
+                userInput = input("PIN>")
+                if(player1[1] == userInput):
+                    player1[2] = balanceAfter
+                    player2[2] = player2[2] + ammount
+                    print("TRANSACTION COMPLETE")
+                    print("Please give the device back to the banker.")
+                    wait()
+                    os.system("cls")
     else:
         print("Incorrect PIN or player to player transactions aren't allowed in this game")
         wait()
