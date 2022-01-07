@@ -16,7 +16,7 @@ def wait():
 print("How many players are there? (Limit 8, you will have to start a new instance of the applacation for more)")#Limited players due to how transaction functions and player setup works. To commiters: Please try to fix this.
 playerCount = input(">")
 playerCount = int(playerCount)
-print("Please fill out the required information for each player\n\nPress return to continue...")
+print("Please fill out the required information for each player\n\n")
 wait()
 os.system("cls") #this line will be used to clear the console
 
@@ -856,7 +856,7 @@ def checkBalance():
         print("What is your PIN?")
         userInput = input(">")
         if(userInput == player1[1]):
-            balance = str(player8[2])
+            balance = str(player1[2])
             print("Hello, "+name+"\nYour balance is "+balance+".\nYour PIN is "+player1[1])
             wait()
             os.system("cls")
