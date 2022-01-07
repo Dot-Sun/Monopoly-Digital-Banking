@@ -1,5 +1,8 @@
 import os
-print("Welcome to Monopoly Digital Banking")
+
+#Welcome Screen
+os.system("cls") #this line will be used to clear the console
+print("Welcome to Monopoly Digital Banking\n")
 
 #set the banker PIN
 print("Please set a banker PIN")
@@ -7,13 +10,13 @@ bankerPin = input("PIN>")
 
 #a simple function that waits for the user to press enter
 def wait():
-    notImportantVariable = input(" ")
+    notImportantVariable = input("Press return to continue...")
 
 #player setup
 print("How many players are there? (Limit 8, you will have to start a new instance of the applacation for more)")#Limited players due to how transaction functions and player setup works. To commiters: Please try to fix this.
 playerCount = input(">")
 playerCount = int(playerCount)
-print("Please fill out the required information for each player")
+print("Please fill out the required information for each player\n\nPress return to continue...")
 wait()
 os.system("cls") #this line will be used to clear the console
 
@@ -31,7 +34,7 @@ if(playerCount == 8):
     os.system("cls")
     print("Please give the device to "+name)
     wait()
-    pin = input("PIN>")
+    pin = input("PIN>") #In the case that the option to save is added then hashing the pin would enable player PIN privacy
     os.system("cls")
     print("Please give device to the banker")
     wait()
@@ -384,7 +387,8 @@ def playerToBank():
                 print("The PIN was incorrect or payment was canceled. If this is an accident, have the banker retry the purchase,\notherwise pass the device back to the banker")
                 wait()
                 os.system("cls")
-def playerToPlayer():
+
+def playerToPlayer(): #This is only enabled for player8 and player7 so far.
     print("To ensure that player to player transactions are allowed in this game, please enter the banker PIN")
     userInput = input("PIN>")
     if(userInput == bankerPin):
@@ -636,6 +640,7 @@ def playerToPlayer():
         print("Incorect PIN or player to player transactions aren't allowed in this game")
         wait()
         os.system("cls")
+
 def bankToPlayer():
     print("What is the players name?")
     name = input(">")
@@ -759,6 +764,7 @@ def bankToPlayer():
             print("The PIN was incorrect or payment was canceled. If this is an accident, retry the purchase.")
             wait()
             os.system("cls")
+
 def checkBalance():
     print("Please enter your name")
     name = input(">")
@@ -864,7 +870,7 @@ def checkBalance():
 print("Ready for transactions")
 def transactions():
     print("Use the letters to choose a transaction option")
-    print("a)  Player to bank (e.g. property purchase)\nb)  Bank to player (e.g. for passing go)\nYou can check player balances and close the applacation to end game\n\nType cb)  Check player balance")
+    print("a)  Player to bank (e.g. property purchase)\nb)  Bank to player (e.g. for passing go)\nYou can check player balances and close the applacation to end game\n\nType cb)  Check player balance") #Add option to exit and, perhaps, save. Saving would need to write out the player states to file.
     userInput = input(">")
     if(userInput == "a"):
         playerToBank()
